@@ -3,7 +3,7 @@ This is a Visual Studio Express 2013 application i have called Breaker.  It is a
 
 How to use the application:
 
-'Breaker config.txt'
+Breaker config.txt
 
 Calls Breaker and executes it with configuration in a config.txt file. If there is a difference between previously saved schema of endpoint and a new endpoint it is displayed in the console. Also it is saved into a log file.
 
