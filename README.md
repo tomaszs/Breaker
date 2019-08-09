@@ -3,16 +3,16 @@ This is a Visual Studio Express 2013 application i have called Breaker.  It is a
 
 # Commands:
 
-'''
+```
 Breaker config.txt
 Breaker config.txt save
-'''
+```
 
 First command checks API for changes. Second saves actual schema of API endpoints for later comparision.
 
 # Structure of generated files:
 
-'''
+```
 logs
 |
 --- log-2019-08-05-12_11.txt
@@ -26,7 +26,7 @@ snapshot
 --- schema-old
     |
     --- endpoint1.txt
-'''
+```
 
 Logs are saved into logs folder with current time. If 'save' parameter is provided, schema is saved into files, one for each endpoint to snapshot folder. Current schema is saved into 'schema-current' folder. Old schema is saved into 'schema-old' folder.
 
@@ -42,17 +42,17 @@ First line should contain authorisation phrase that will be passed in header of 
 
 URLs are long. When you compare schema-old and schema-current, they don't show entrirely in WinMerge, or other file comparision tools. To make it easier to compare endpoints you provide in second line of a config file, part of the URL that should be stripped. For example if you have endpoints:
 
-'''
+```
 http://somewebsite.com/datacenter/api/new/version2.0/appnew/getcars/secondcar
 http://somewebsite.com/datacenter/api/new/version2.0/appnew/getcars/bestcar
-'''
+```
 
 Second line should contain "http://somewebsite.com/datacenter/api/new/version2.0/appnew/". That way files in schema-old and schema-current will have these names that are easy to read:
 
-'''
+```
 getcars_secondcar.txt
 getcars_bestcar.txt
-'''
+```
 
 # next lines - endpoint urls
 
