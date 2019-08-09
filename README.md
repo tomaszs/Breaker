@@ -54,6 +54,10 @@ getcars_secondcar.txt
 getcars_bestcar.txt
 ```
 
-# next lines - endpoint urls
+## next lines - endpoint urls
 
 Following lines should be URLS of endpoints to check. Currently only GET requests are supported.
+
+# disclaimers
+
+This project is not for educational purposes. The code does not follow standards. But it works.
