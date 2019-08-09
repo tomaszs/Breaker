@@ -61,3 +61,7 @@ Following lines should be URLS of endpoints to check. Currently only GET request
 # disclaimers
 
 This project is not for educational purposes. The code does not follow standards. But it works.
+
+# licence
+
+Code is licenced under MIT. In case of any doubts, you can use it for non-commercial and commercial purposes in any environment for free. Feel free to contribute.
