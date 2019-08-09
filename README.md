@@ -58,6 +58,10 @@ getcars_bestcar.txt
 
 Following lines should be URLS of endpoints to check. Currently only GET requests are supported.
 
+# Download
+
+You can download the application (EXE) here: https://github.com/tomaszs/Breaker/releases/tag/1.1. Just download it, extract from ZIP file and use Breaker.exe file
+
 # Disclaimers
 
 This project is not for educational purposes. The code does not follow standards. But it works.
