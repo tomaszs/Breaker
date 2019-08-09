@@ -60,7 +60,7 @@ Following lines should be URLS of endpoints to check. Currently only GET request
 
 # Download
 
-You can download the application (EXE) here: https://github.com/tomaszs/Breaker/releases/tag/1.1. Just download it, extract from ZIP file and use Breaker.exe file
+You can download the application (EXE) here: https://github.com/tomaszs/Breaker/releases/download/1.1/Release.zip. Just download it, extract from ZIP file and use Breaker.exe file
 
 # Disclaimers
 
